@@ -1,0 +1,28 @@
+/*Valeur less*/
+/*Ordinateur*/
+@media only screen and (min-width: 1280px) {
+  body {
+    font-style: calibri;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #666666;
+  }
+  h1 {
+    color: #ffc0cb;
+  }
+  nav {
+    background-color: #cc9933;
+  }
+  p {
+    color: #cc9933;
+    text-align: center;
+  }
+  section {
+    width: 30%;
+    display: inline-block;
+  }
+  img {
+    width: 90%;
+    padding: 20px;
+  }
+}

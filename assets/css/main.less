@@ -3,7 +3,7 @@
 @fond : #666666;
 @or:#CC9933;
 @colorp: #cc9933;
-
+@font-size-h1: 50px;
 @font-size-root: 16px;
 @device-width-little: unit((480px /@font-size-root), em);
 @device-width-medium: unit((1024px /@font-size-root), em);
@@ -42,6 +42,7 @@
 /*Tablette*/	
 @media screen and (min-width : 30em) and (max-width: 80em){
 	body {
+		margin : 40px;
 		font-style: calibri;
 		font-size: 1.5em;	
 		text-align: center;
@@ -50,7 +51,7 @@
 	
 	h1{
 		color:@or;
-		
+		font-size: @font-size-h1;
 	}
 	section{
 		width:40%;
@@ -72,14 +73,15 @@
 /*Portable*/
 @media screen and (max-width : @device-width-little) {
 	body {
+		margin : 30px;
 		font-style: calibri;
-		font-size: 1.5em;	
+		font-size: font-size-root;	
 		text-align: center;
 		background-color: @fond;
 	} 
 	h1{
 		color:@or;
-		
+		font-size: @font-size-h1;
 	}
 	section{
 		width:100%;
